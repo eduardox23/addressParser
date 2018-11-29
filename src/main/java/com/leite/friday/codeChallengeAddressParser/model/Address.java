@@ -2,27 +2,20 @@ package com.leite.friday.codeChallengeAddressParser.model;
 
 public class Address {
 	
-	private long id;
     private String street;
     private String housenumber;
 
-    public Address(long id, String street,String housenumber) {
-        this.id = id;
+    public Address(String street,String housenumber) {
         this.street = street;
         this.housenumber = housenumber;
     }
     
-    public Address(long id, String street) {
-        this.id = id;
+    public Address(String street) {
         this.street = street;
     }
 
     public Address() {
 	}
-
-	public long getId() {
-        return id;
-    }
 
 	public String getStreet() {
 		return street;
@@ -30,10 +23,6 @@ public class Address {
 
 	public String getHousenumber() {
 		return housenumber;
-	}
-
-	public void setId(long id) {
-		this.id = id;
 	}
 
 	public void setStreet(String street) {

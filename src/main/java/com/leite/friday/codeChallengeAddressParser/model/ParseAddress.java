@@ -24,7 +24,8 @@ public class ParseAddress {
 		LOGGER.debug("Full String Address: ", address);
 		
 		//remove empty spaces and special chars
-		cleanAddressString(address);
+		address = cleanAddressString(address);
+		
 		LOGGER.debug("Cleaned String Address: ", address);
 		
 		Address parsedAddress = new Address();
