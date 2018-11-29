@@ -13,7 +13,7 @@ public class AddressController {
 	private final ParseAddress parseAdress = new ParseAddress();
 
     @RequestMapping("/address")
-    public Address address(@RequestParam(value="address") String address) {
+    public Address executeAdressParser(@RequestParam(value="address") String address) {
         //return new Address(counter.incrementAndGet(),street);
     	return parseAdress.parse(address);
     }

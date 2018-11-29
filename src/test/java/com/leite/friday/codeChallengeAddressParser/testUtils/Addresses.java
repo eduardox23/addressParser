@@ -19,7 +19,7 @@ public class Addresses {
 
 	public static final String INTERNATIONAL_ADDRESS_CASE_4 = "Calle 39 No 1540";
 
-	public static final String UNPARSEBABLE_ADDRESS = "fsd df , num200";
+	public static final String UNPARSEBABLE_ADDRESS = "fsd df kl2k";
 
 	public static final String NULL_ADDRESS = null;
 

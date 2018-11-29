@@ -11,6 +11,12 @@ public class AddressRegexpUtils {
 	//Regexp to extract streetNumber of an address string
 	public static final String ADDRESS_NUMBER = "^[0-9]+|^[0-9]+.|[0-9].+.$|[0-9]+$";
 	
+	
+	/**
+	 * @param String regexp - desired regular expression to be matched
+	 * @param String address - Address string with street names and numbers in the same string.
+	 * @return pattern matched
+	 */
 	public static Matcher getMatcher(String regexp, String address) {
 		Pattern p = Pattern.compile(regexp);
 	    return p.matcher(address);
