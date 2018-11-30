@@ -41,10 +41,12 @@ To start the app
 mvn spring-boot:run
 ```
 To access the app
-The base path for the app endpoins is: **/address** 
+The base path for the app endpoins is: **/address**
+
 Application default port **:8080**
 
 To test the app via browser:  **/address?address=param**
+Where **param** is the address string desired to be parsed 
 
 To run all unit and integration tests use the command bellow
 ```bash
