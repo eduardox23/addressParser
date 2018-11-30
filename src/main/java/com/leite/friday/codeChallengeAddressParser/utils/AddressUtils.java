@@ -8,7 +8,6 @@ import java.util.regex.Matcher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.leite.friday.codeChallengeAddressParser.model.exceptions.AddressNotFoundException;
 import com.leite.friday.codeChallengeAddressParser.model.exceptions.ParserNotFoundException;
 
 public class AddressUtils {
