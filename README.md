@@ -1,6 +1,6 @@
 # addressParser
 
-Problem:
+# Problem:
 
 Addressline
 
@@ -27,7 +27,7 @@ BONUS: Consider other countries (complex cases)
 "Calle 39 No 1540" -> {"street": "Calle 39", "housenumber": "No 1540"}
 
 -----------------------------------------------------------------------
-Solution:
+# Solution:
 
 Instructions
 
@@ -37,8 +37,9 @@ Java 8 (JDK8)
 Maven 3.6 or grater
 
 To start the app
+```bash
 mvn spring-boot:run
-
+```
 To access the app
 The base path for the app endpoins is: /address 
 For this app solution /address?address=param
@@ -46,5 +47,6 @@ For this app solution /address?address=param
 Application default port :8080
 
 To run all unit and integration tests use the command bellow
-
+```bash
 mvn test
+```
