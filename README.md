@@ -33,18 +33,18 @@ Instructions
 
 To compile and run this project you will need:
 
-Java 8 (JDK8)
-Maven 3.6 or grater
+**Java 8 (JDK8)**
+**Maven 3.6 or grater**
 
 To start the app
 ```bash
 mvn spring-boot:run
 ```
 To access the app
-The base path for the app endpoins is: /address 
-For this app solution /address?address=param
+The base path for the app endpoins is: **/address** 
+Application default port **:8080**
 
-Application default port :8080
+To test the app via browser:  **/address?address=param**
 
 To run all unit and integration tests use the command bellow
 ```bash
